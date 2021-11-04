@@ -1,0 +1,6 @@
+print(list(range(10)))
+print(tuple(range(4)))
+value = ('sri',34)
+key = ('name','age')
+keyvalue= list(zip(key,value))
+print(dict(keyvalue))
